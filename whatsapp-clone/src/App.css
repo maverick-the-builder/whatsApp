@@ -1,0 +1,80 @@
+.whatsapp-navbar {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navbar-icons {
+  width: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-secondary {
+  padding: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin-right: 10px;
+  /* Adjust the gap between links */
+}
+
+.navbar-links li:last-child {
+  margin-right: 0;
+}
+
+.camera-preview {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px; /* Adjust as needed */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 1; /* Ensure the dropdown is above other elements */
+  margin-right: 1rem;
+}
+
+.dropdown ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown ul li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.dropdown ul li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 5px 0;
+}
+
+.dropdown span {
+  display: block;
+  padding: 5px 10px;
+  color: #666;
+}
